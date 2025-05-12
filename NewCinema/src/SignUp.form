@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SignUp">
+  <grid id="27dc6" binding="SiignUp" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="532" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-12632257"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="50463" class="javax.swing.JLabel" binding="userName">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16719134"/>
+          <text value="Enter your name :"/>
+        </properties>
+      </component>
+      <component id="b9e61" class="javax.swing.JTextField" binding="NameText">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10263709"/>
+          <foreground color="-16719134"/>
+        </properties>
+      </component>
+      <component id="58c94" class="javax.swing.JLabel" binding="password">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16719134"/>
+          <text value="Enter your password:"/>
+        </properties>
+      </component>
+      <component id="a51b2" class="javax.swing.JTextField" binding="passwordText">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10263709"/>
+          <foreground color="-16719134"/>
+        </properties>
+      </component>
+      <component id="147f" class="javax.swing.JLabel" binding="confirm">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16719134"/>
+          <text value="confirm passowrd"/>
+        </properties>
+      </component>
+      <component id="8ae35" class="javax.swing.JTextField" binding="confirmTiext">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10263709"/>
+          <foreground color="-16719134"/>
+        </properties>
+      </component>
+      <component id="bd8c9" class="javax.swing.JButton" binding="SignUp">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15329770"/>
+          <foreground color="-16719134"/>
+          <text value="SignUp"/>
+        </properties>
+      </component>
+      <grid id="5872f" binding="Cinema" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15329770"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c4435" class="javax.swing.JLabel" binding="CinemaName">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16751002"/>
+              <font name="Blackadder ITC" size="36"/>
+              <foreground color="-16751002"/>
+              <text value="ROZA Cinema"/>
+            </properties>
+          </component>
+          <component id="8a72f" class="javax.swing.JLabel" binding="Photo">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Script" size="20"/>
+              <foreground color="-16719134"/>
+              <text value="Best Cinema ever"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
